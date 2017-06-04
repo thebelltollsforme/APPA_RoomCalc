@@ -13,5 +13,10 @@ public class Room {
         this.totalSquareFeet = 0;
         this.cleanlinessLevel = 1;
     }
+    
+    public String toString(){
+        String tempString = (this.totalSquareFeet + " square feet at a class " + this.cleanlinessLevel);
+        return tempString;
+    }
 
 }
