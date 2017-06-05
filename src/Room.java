@@ -18,5 +18,13 @@ public class Room {
         String tempString = (this.totalSquareFeet + " square feet at a class " + this.cleanlinessLevel);
         return tempString;
     }
+    
+    public void setTotalSquareFeet(int passedValue){
+        this.totalSquareFeet = passedValue;
+    }
+    
+    public void setCleanlinessLevel(int passedValue){
+        this.cleanlinessLevel = passedValue;
+    }
 
 }
