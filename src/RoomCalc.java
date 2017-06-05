@@ -14,9 +14,12 @@ public class RoomCalc {
         testRoom.setCleanlinessLevel(2);
         testArrayList.add(new Room(250,2));
         
+        printAll(testArrayList);
+    }
+    public static void printAll(ArrayList<Room> testArrayList){
         for (Room testingRoom : testArrayList){
             System.out.println(testingRoom);
-        }
+    }
     }
     
     
