@@ -32,5 +32,26 @@ public class Room {
     public void setToiletCount(int passedValue){
         this.toiletCount = passedValue;
     }
+    
+    public void setUrinalCount(int passedValue){
+        this.urinalCount = passedValue;
+    }
+    
+    public int getTotalSquareFeet(){
+        return this.totalSquareFeet;
+    }
+    
+    public int getCleanlinessLevel(){
+        return this.cleanlinessLevel;
+    }
+    
+    public int getToiletCount(){
+        return this.toiletCount;
+    }
+    
+    public int getUrinalCount(){
+        return this.urinalCount;
+    }
+
 
 }
