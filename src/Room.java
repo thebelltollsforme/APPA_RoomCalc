@@ -3,6 +3,8 @@ public class Room {
 
     private int totalSquareFeet;
     private int cleanlinessLevel;
+    private int toiletCount = 0;
+    private int urinalCount = 0;
 
     public Room(int totalSquareFeet, int cleanlinessLevel) {
         this.totalSquareFeet = totalSquareFeet;
@@ -25,6 +27,10 @@ public class Room {
     
     public void setCleanlinessLevel(int passedValue){
         this.cleanlinessLevel = passedValue;
+    }
+    
+    public void setToiletCount(int passedValue){
+        this.toiletCount = passedValue;
     }
 
 }
